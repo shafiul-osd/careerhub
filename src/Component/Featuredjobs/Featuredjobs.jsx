@@ -31,7 +31,7 @@ const Featuredjobs = () => {
                 }
             </div>
             <div className={datalength===jobs.length ?'hidden':'text-center'} >
-                <button  onClick={handlejoblength }>See All Jobs</button>
+                <button onClick={handlejoblength } className="bg-blue-500 rounded-lg p-2 text-white mt-4" >See All Jobs</button>
             </div>
             
         </div>

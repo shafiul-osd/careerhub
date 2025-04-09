@@ -1,6 +1,7 @@
 
 import { Link, Outlet } from 'react-router'
 import './App.css'
+import Footer from './Component/Footer/Footer'
 
 function App() {
   
@@ -22,9 +23,11 @@ function App() {
       
     </div>
     <Outlet></Outlet>
-    <footer>
-      <h2>all reserved from shafiul ltd 2025</h2>
-    </footer>
+    
+      <div className>
+      <Footer></Footer>
+      </div>
+    
     </>
   )
 }
